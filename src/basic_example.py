@@ -6,7 +6,7 @@ def basic_func(
     input_df: pd.DataFrame,
     feature_cols: list,
     standard_scaler_flag: bool = False
-) -> pd.DataFrames:
+) -> pd.DataFrame:
 
     df = input_df[feature_cols]
     if standard_scaler_flag:
