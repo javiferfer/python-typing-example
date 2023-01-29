@@ -1,6 +1,5 @@
 # Python typing example
 
-## Introduction
 Start using this repository installing the [mypy](https://pypi.org/project/mypy/). This library will check the type annotations in your Python code.
 
 As defined in the project description:
@@ -9,7 +8,7 @@ As defined in the project description:
 Then, run the following command in your terminal:
 
 ```
-mypy src/basic_example.py --config-file mypy.ini
+mypy src --config-file mypy.ini
 ```
 
 **Note**: The config file for this project is `mypy.ini` but there are other config files that can be used ([ref](https://mypy.readthedocs.io/en/stable/config_file.html)).
@@ -59,11 +58,6 @@ Lastly, run the following command. This time there should not be any error displ
 ```
 mypy src --config-file mypy.ini
 ```
-
-## Input and output types
-
-
-
 
 
 ## References:
